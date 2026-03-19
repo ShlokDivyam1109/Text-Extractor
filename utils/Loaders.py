@@ -33,7 +33,6 @@ class EMNISTDataset(Dataset):
 
         return (
             torch.tensor(img),
-            torch.tensor(label_id),
             class_char
         )
 
